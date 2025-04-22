@@ -8,8 +8,8 @@ import MainNav from './components/MainNav.jsx';
 function App() {
   return (
     <>
-      <MainNav />
       <BrowserRouter>
+        <MainNav />
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/AboutUs" element={<AboutUs />} />
@@ -20,4 +20,4 @@ function App() {
   );
 }
 
-export default App
+export default App;
